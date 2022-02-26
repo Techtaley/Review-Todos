@@ -1,0 +1,31 @@
+like button with Like counter that increases up or down if clicked
+
+-import React, {useState} from react
+  export default function Like100() 
+    const counter, setCounter - useState is 100
+    const like, setLike - useState is false 
+    
+    handleClick
+      -if like setLike to !like
+          setCounter(c => c- 1)
+      -else setLike to !like
+          setCounter(c => c + 1)
+
+    return
+       button Like | {counter}
+           if like is true ? button className is like like-button 
+             : like-button          
+        </button>
+   )           
+
+ 
+Create App From Scratch
+
+-in react folder> npm create-react-app todo
+-delete all except index.js, App.js, App.ccs in public folder
+-in components folder create todo folder
+-in todo fodler create a todo component
+-in App.js clean up all except <div className="App">
+-in App.js import todo component
+-build specific <Todo /> component
+

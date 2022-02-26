@@ -1,0 +1,109 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.todo_items {
+  color: #666;
+  text-align: left;  
+}
+
+.horizontal-list{
+  display: flex;
+  flex-direction: row;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.button-list{
+  display: inline-block
+}
+
+.addbutton {
+  background: blue;
+  color: white; 
+}
+
+.editbutton {
+    background: green;
+    color: white; 
+}
+
+.completed {
+  text-decoration: line-through; 
+}
+
+.like-button {
+  width: 150px;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.liked {
+  color: blue;
+  font-weight: bold;
+  background: rgb(211, 211, 211);  
+}
+
+.removebullets {
+  list-style: none;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.removeborder {
+  border: 0;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
